@@ -3,8 +3,8 @@ from typing import List
 
 API_ID = os.environ.get("API_ID", "39020336")
 API_HASH = os.environ.get("API_HASH", "b6b6742ac6ad6936dfc88caeac95b7a4")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8839051596:AAGrniVjLipqaFWoGO-WJa53CG2THRMgasI")
+ADMIN = int(os.environ.get("ADMIN", "5953067512"))
 PICS = (os.environ.get("PICS", "https://i.ibb.co/MDssddJp/pic.jpg https://i.ibb.co/n8fQ2xcx/pic.jpg")).split()
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003819889662"))
 NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "True").lower() == "true"

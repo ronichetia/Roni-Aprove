@@ -10,7 +10,7 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003819889662"))
 NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "True").lower() == "true"
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://Maggie12:Deepta123@cluster0.g4syvio.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "approve")
-IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
+IS_FSUB = os.environ.get("IS_FSUB", "True").lower() == "true"  # Set "True" For Enable Force Subscribe
 AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNELS", "-1004215235663").split())) # Add Multiple channel ids
 AUTH_REQ_CHANNELS = list(map(int, os.environ.get("AUTH_REQ_CHANNELS", "-1004346499263").split())) # Add Multiple channel ids
 FSUB_EXPIRE = int(os.environ.get("FSUB_EXPIRE", 2))  # minutes, 0 = no expiry
